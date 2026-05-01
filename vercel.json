@@ -1,7 +1,5 @@
 {
-  "version": 2,
   "rewrites": [
-    { "source": "/image.png", "destination": "/api/main.py" },
     { "source": "/(.*)", "destination": "/api/main.py" }
   ]
 }
